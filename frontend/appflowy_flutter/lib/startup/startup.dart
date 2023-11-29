@@ -15,6 +15,9 @@ import 'launch_configuration.dart';
 import 'plugin/plugin.dart';
 import 'tasks/appflowy_cloud_task.dart';
 import 'tasks/prelude.dart';
+run(){
+MaterialApp(),
+  MaterialApp.router()}
 
 final getIt = GetIt.instance;
 
