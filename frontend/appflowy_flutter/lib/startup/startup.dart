@@ -18,6 +18,10 @@ import 'tasks/prelude.dart';
 
 final getIt = GetIt.instance;
 
+run(){
+  MaterialApp
+}
+
 abstract class EntryPoint {
   Widget create(LaunchConfiguration config);
 }
